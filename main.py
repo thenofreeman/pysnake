@@ -200,7 +200,10 @@ class Game:
         self.theme = THEMES['default']
         self.state = 'play'
         self.score = 0
-        self.highscore = int(open("scores.txt", 'r').read())
+        try:
+            self.highscore = int(open("scores.txt", 'r').read())
+        except:
+            self.highscore = 0
 
         self.num_foods = 1
         self.speed = 1

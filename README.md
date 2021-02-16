@@ -1,3 +1,5 @@
+*NOTE: Game logic is very broken as I haven't used, or attempted to fix in a very long time*
+
 # PySnake
 
 ![In game](/screenshots/ReadmeHeader.png)
